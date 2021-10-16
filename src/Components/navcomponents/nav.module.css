@@ -1,0 +1,89 @@
+.container{
+    background-color: #03120E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: #fff;
+    position: sticky;
+    top:0;
+}
+.container .logo{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    padding: 0 30px;
+}
+.menu ul li a{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold;
+    color: #fff;
+}
+.menu i{
+    display: none;
+}
+.icon i{
+    font-size: 20px;
+    margin-inline-end: 15px ;
+}
+.hmmenu{
+    display: none
+}
+@media (max-width:640px){
+    .menu{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #03120eea;
+        padding: 30px 30px;
+
+    }
+    .showMenu{
+        display: block;
+    }
+    .menu ul{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+     
+
+    }
+    .menu li{
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        
+    }
+    .menu i{
+        display: block;
+        font-size: 34px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .menu ul li a{
+        display: inline-block;
+        padding: 20px 0;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    .hmmenu{
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .icon i{
+        display: none;
+    }
+    
+}
