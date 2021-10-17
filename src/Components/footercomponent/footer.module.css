@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contain{
+    background-color: #03120E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 30px;
+    color: #fff;
+    height: 40vh;
+}
+.contain .text{
+    width: 50%;
+}
+.text h2{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.share h3{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+.share i{
+    font-size: 26px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+.endfooter{
+    padding: 15px 0;
+    background-color: #1a1d1a;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width : 640px){
+    .contain{
+        flex-direction: column;
+        padding: 50px 0;
+        height: auto;
+    }
+    .text{
+        margin: 40px;
+    }
+}

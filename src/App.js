@@ -6,6 +6,7 @@ import Login from './Components/Login';
 import Products from './Components/Products';
 
 import Navbar from './Components/navcomponents/Navbar';
+import Footer from './Components/footercomponent/Footer';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path='/login' component={Login} />
                 <Route path='/' component={Home} />
             </Switch>
+            <Footer/>
         </div>
     );
 };

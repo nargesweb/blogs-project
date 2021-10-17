@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import styles from './nav.module.css'
 
 const Navbar = () => {
-    const [show,setShow] = useState(false)
-    console.log(show);
 
     return (
         <div className={styles.container}>

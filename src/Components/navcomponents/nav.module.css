@@ -80,7 +80,10 @@
     .hmmenu{
         display: inline-block;
         font-size: 20px;
+    }
+    .hmmenu i{
         cursor: pointer;
+
     }
     .icon i{
         display: none;
